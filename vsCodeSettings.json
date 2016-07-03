@@ -13,7 +13,10 @@
 
     // Defines whether an open brace is put onto a new line for control blocks or not
     "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace"
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "onFocusChange",
 
-
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when "files.autoSave" is set to "afterDelay"
+    "files.autoSaveDelay": 50
 }
