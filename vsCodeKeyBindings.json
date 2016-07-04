@@ -8,4 +8,20 @@
     "command": "editor.unfoldAll",
     "when": "editorTextFocus"
 }
-]
+,{
+    "key": "alt+l",
+    "command": "extension.changeCase.lower",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+c",
+    "command": "extension.changeCase.camel",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+u",
+    "command": "extension.changeCase.upper",
+    "when": "editorTextFocus"
+},{
+    "key": "alt+p",
+    "command": "extension.changeCase.pascal",
+    "when": "editorTextFocus"
+}]
